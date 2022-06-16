@@ -21,7 +21,7 @@ function play() {
 			msg3.textContent = "Guessed number: "+ guessed_nums;
 		} else if(user_guess > answer) {
 			msg1.textContent = "Your guess is too high";
-			msg2.textContent = "No, of guesses: "+ no_of_guesses;
+			msg2.textContent = "Number of guesses: "+ no_of_guesses;
 			msg3.textContent = "Guessed number:" + guessed_nums;
 		} else if(user_guess == answer) {
 			const msg1 = document.getElementById("message1");
