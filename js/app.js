@@ -10,7 +10,7 @@ var guessed_nums = [];
 function play() {
 	var user_guess = document.getElementById("guess").value;
 	if(user_guess < 1 || user_guess > 10) {
-		alert("Please, enter number between 1 и 10");
+		window.alert("Please, enter number between 1 и 10");
 	} else {
 		guessed_nums.push(user_guess);
 		no_of_guesses += 1;
